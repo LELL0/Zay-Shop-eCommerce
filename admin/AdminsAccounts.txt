@@ -1,0 +1,7 @@
+Admins accounts 
+
+1)admin1@gmail.com
+  admin1(password)
+
+2)admin2@gmail.com
+  admin2(password)

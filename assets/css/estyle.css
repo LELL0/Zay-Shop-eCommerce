@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Yrsa', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #b2bec3;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.wrapper {
+    background: white;
+    padding: 30px 15px;
+    width: 470px;
+}
+
+.wrapper .title {
+    border-left: 5px solid #b2bec3;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.input-field .input-label {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.input-field .input {
+    font-family: 'Yrsa', serif;
+    border: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    transition: 0.3s all ease;
+}
+
+.input-field .input:focus {
+    border-color: #b2bec3;
+}
+
+.btn {
+    font-family: 'Yrsa', serif;
+    background: #b2bec3;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 25px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: 0.3s all ease;
+}
+
+.btn:hover, .btn:focus {
+    background: transparent;
+    border-color: #b2bec3;
+    color: #b2bec3;
+}
+
+.wrapper .form p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.wrapper .form p a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s all ease;
+}
+
+.wrapper .form p a:focus, .wrapper .form p a:hover {
+    color: #b2bec3;
+}

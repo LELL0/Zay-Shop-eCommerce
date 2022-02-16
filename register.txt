@@ -1,0 +1,5 @@
+name:		demo user
+password:	password@_01
+email 		user3@example.com
+phone:		03045676
+zip code:	14
